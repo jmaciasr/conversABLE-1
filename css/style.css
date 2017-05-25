@@ -243,6 +243,74 @@ fieldset,
 hr {
   margin: 0 0 1.5rem; }
 
+.sticky-menu {
+  background-color: #F3F2F2;
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.3);
+  margin: auto;
+  width: 597px; }
+
+.sticky-menu-star {
+  position: fixed;
+  top: 0;
+  left: 28%;
+  z-index: 1000; }
+
+.sticky-menu-item {
+  box-sizing: border-box;
+  border: none;
+  display: inline-block;
+  margin: 0;
+  padding: 1em 0 0 0;
+  text-align: center;
+  width: 146px; }
+
+.sticky-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 85px;
+  margin: 0 auto; }
+
+.icon-workshop-black {
+  background-image: url("../img/icon-workshop-black.png"); }
+
+.icon-consultancies-black {
+  background-image: url("../img/icon-consultancies-black.png"); }
+
+.icon-coaching-black {
+  background-image: url("../img/icon-coaching-black.png"); }
+
+.icon-retreats-black {
+  background-image: url("../img/icon-retreats-black.png"); }
+
+.sticky-menu-item:hover h4 {
+  color: #fff; }
+
+.sticky-menu-workshop:hover {
+  background-color: #21a295; }
+  .sticky-menu-workshop:hover .icon-workshop-black {
+    background-image: url("../img/icon-workshop.png"); }
+
+.sticky-menu-consultancies:hover {
+  background-color: #a4377f; }
+  .sticky-menu-consultancies:hover .icon-consultancies-black {
+    background-image: url("../img/icon-consulting.png"); }
+
+.sticky-menu-consultancies:hover {
+  background-color: #a4377f; }
+  .sticky-menu-consultancies:hover .icon-consultancies-black {
+    background-image: url("../img/icon-consulting.png"); }
+
+.sticky-menu-coaching:hover {
+  background-color: #f5978d; }
+  .sticky-menu-coaching:hover .icon-coaching-black {
+    background-image: url("../img/icon-coaching.png"); }
+
+.sticky-menu-retreats:hover {
+  background-color: #5f9fc0; }
+  .sticky-menu-retreats:hover .icon-retreats-black {
+    background-image: url("../img/icon-retreats.png"); }
+
 .menu {
   margin: 0;
   padding: 0; }
