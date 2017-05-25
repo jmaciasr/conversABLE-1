@@ -1,7 +1,10 @@
-var scrollSpace = getElementById('scrollSpace');
-var scrollTop = scrollSpace.offsetTop;
-var prueba = 0;
+var stickyMenu = document.getElementById('stickyMenu');
+var scrollSpace = stickyMenu.offsetTop;
 
-window.onscroll = function() {
-	prueba ++;
-};
+window.addEventListener('scroll', function () {
+	if (window.pageYOffset > scrollSpace) {
+		stickyMenu.classList.add('sticky-menu-fixed');
+	} else {
+		stickyMenu.classList.remove('sticky-menu-fixed');
+	}
+} );
