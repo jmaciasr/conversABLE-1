@@ -1,6 +1,6 @@
 .sticky-menu {
 	background-color: #F3F2F2;
-	box-shadow: 0px 4px 3px rgba(0,0,0,0.3);
+	box-shadow: 0 4px 3px rgba(0,0,0,.3);
 	margin: auto;
 	width: 597px;
 }
@@ -9,19 +9,17 @@
 	position:fixed;
 	top: 0;
 	left:28%;
-	z-index: 1000;
+	z-index: 10;
 }
 
 
 .sticky-menu-item {
-	box-sizing: border-box;
 	border: none;
 	display: inline-block;
 	margin: 0;
-	padding: 1em 0 0 0;
+	padding-top: 1em;
 	text-align: center;
 	width: 146px;
-
 }
 
 .sticky-icon {
@@ -33,22 +31,18 @@
  }
  
 .icon-workshop-black {
-	background-image: url("../img/icon-workshop-black.png");
-	
+	background-image: url("../img/icon-workshop-black.png");	
 }
 
 .icon-consultancies-black {
-	background-image: url("../img/icon-consultancies-black.png");
-	
+	background-image: url("../img/icon-consultancies-black.png");	
 }
 
 .icon-coaching-black {
-	background-image: url("../img/icon-coaching-black.png");
-	
+	background-image: url("../img/icon-coaching-black.png");	
 }
 .icon-retreats-black {
-	background-image: url("../img/icon-retreats-black.png");
-	
+	background-image: url("../img/icon-retreats-black.png");	
 }
 
 .sticky-menu-item:hover {
@@ -58,46 +52,33 @@
 }
 
 .sticky-menu-workshop:hover {
-	background-color: #21a295;
+	background-color: $conversable-turquoise;
 	
 	.icon-workshop-black {
-		background-image: url("../img/icon-workshop.png");
-	
+		background-image: url("../img/icon-workshop.png");	
 	}
 }
 
 .sticky-menu-consultancies:hover {
-	background-color: #a4377f;
+	background-color: $conversable-violet;
 	
 	.icon-consultancies-black {
-		background-image: url("../img/icon-consulting.png");
-	
-	}
-}
-
-.sticky-menu-consultancies:hover {
-	background-color: #a4377f;
-	
-	.icon-consultancies-black {
-		background-image: url("../img/icon-consulting.png");
-	
+		background-image: url("../img/icon-consulting.png");	
 	}
 }
 
 .sticky-menu-coaching:hover {
-	background-color: #f5978d;
+	background-color: $conversable-salmon;
 	
 	.icon-coaching-black {
-		background-image: url("../img/icon-coaching.png");
-	
+		background-image: url("../img/icon-coaching.png");	
 	}
 }
 
 .sticky-menu-retreats:hover {
-	background-color: #5f9fc0;
+	background-color: $conversable-blue;
 	
 	.icon-retreats-black {
-		background-image: url("../img/icon-retreats.png");
-	
+		background-image: url("../img/icon-retreats.png");	
 	}
 }

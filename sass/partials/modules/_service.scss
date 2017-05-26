@@ -1,19 +1,14 @@
 .service-content {
 	display: inline-block;
-	-webkit-box-sizing: border-box;
- 	-moz-box-sizing: border-box;
-    box-sizing: border-box;
-   	width: 49%;
+	width: 49%;
 }
 
 .sevice-events {
 	margin-top: 1.5em;
 }
 
-.service-info video, .service-info img {
-	-webkit-box-sizing: border-box;
- 	-moz-box-sizing: border-box;
-    box-sizing: border-box;
+.service-info video, 
+.service-info img {
 	width: 50%;
 }
 
