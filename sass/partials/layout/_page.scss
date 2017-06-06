@@ -76,7 +76,7 @@
 }
 
 .section-wrap {
-  padding: 5.5rem 3rem 8rem 3rem;
+  padding: $space-large $space-medium $space-x-large $space-medium;
 }
 
 .section-wrap--intro {
@@ -90,8 +90,8 @@
 }
 
 .section-wrap--tight {
-  padding-bottom: 3rem;
-  padding-top: 3rem;
+  padding-bottom: $space-medium rem;
+  padding-top: $space-medium rem;
 }
 
 .wrapper {
