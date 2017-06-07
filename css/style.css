@@ -206,26 +206,6 @@ img {
 svg:not(:root) {
   overflow: hidden; }
 
-.btn-fill {
-  background-color: #21a295;
-  display: inline-block;
-  padding: 1.5em 2.5em;
-  color: #fff;
-  border: none; }
-
-.btn-fill:hover {
-  background-color: #29a6ba; }
-
-.btn-invert {
-  border: 2px solid #21a295;
-  color: #23b1a6;
-  padding: 1em 2.5em; }
-
-.btn-invert:hover {
-  background-color: #29a6ba;
-  padding: 1em 2.5em;
-  color: #fff; }
-
 h1,
 h2,
 h3,
@@ -244,91 +224,38 @@ fieldset,
 hr {
   margin: 0 0 1.5rem; }
 
-.sticky-menu {
-  background-color: transparent; }
-
-.sticky-menu__wrap {
-  background-color: #F3F2F2;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-  margin: auto;
-  width: 614px; }
-
-.sticky-menu__item {
-  margin: 0; }
-
-.sticky-menu-fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  right: 0; }
-
-.sticky-menu-item {
-  border: none;
-  display: inline-block;
-  padding: 1rem;
-  text-align: center;
-  width: 150px; }
-
-.sticky-icon {
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 60px;
-  height: 60px;
-  margin: 0 auto; }
-
-.icon-workshop-black {
-  background-image: url("../img/icon-workshop-black.png"); }
-
-.icon-consultancies-black {
-  background-image: url("../img/icon-consultancies-black.png"); }
-
-.icon-coaching-black {
-  background-image: url("../img/icon-coaching-black.png"); }
-
-.icon-retreats-black {
-  background-image: url("../img/icon-retreats-black.png"); }
-
-.sticky-menu-item:hover h4 {
-  color: #fff; }
-
-.sticky-menu-workshop:hover {
-  background-color: #21a295; }
-  .sticky-menu-workshop:hover .icon-workshop-black {
-    background-image: url("../img/icon-workshop.png"); }
-
-.sticky-menu-consultancies:hover {
-  background-color: #a4377f; }
-  .sticky-menu-consultancies:hover .icon-consultancies-black {
-    background-image: url("../img/icon-consulting.png"); }
-
-.sticky-menu-coaching:hover {
-  background-color: #f5978d; }
-  .sticky-menu-coaching:hover .icon-coaching-black {
-    background-image: url("../img/icon-coaching.png"); }
-
-.sticky-menu-retreats:hover {
-  background-color: #5f9fc0; }
-  .sticky-menu-retreats:hover .icon-retreats-black {
-    background-image: url("../img/icon-retreats.png"); }
-
 .menu {
   margin: 0;
   padding: 0; }
 
-.main-btn {
-  display: block;
-  width: 150px;
-  height: 50px;
-  background-color: #20a296;
+.btn {
+  border: none;
   color: #fff;
-  padding-top: 12px;
-  font-weight: 300;
-  border-bottom: none; }
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 1.5rem 3rem; }
 
-.btn-certification {
-  margin: 0 auto;
-  margin-top: 43px; }
+.btn--principal {
+  background-color: #21a295; }
+  .btn--principal:hover {
+    background-color: #1e8478; }
+
+.btn--secundary {
+  background-color: #a5a5a5; }
+  .btn--secundary:hover {
+    background-color: #d0cece; }
+
+.btn--small {
+  padding: .6rem; }
+
+.btn--invert {
+  background-color: #fff;
+  color: #a5a5a5; }
+  .btn--invert:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 2px solid #fff;
+    color: #fff; }
 
 .logo {
   border-bottom: 0;
@@ -560,11 +487,10 @@ hr {
   background-image: url(../img/icon-retreats.png); }
 
 .events-grid {
-  border: .5rem solid #F3F2F2;
-  display: inline-block;
+  border: 0.5rem solid #f3f2f2;
+  display: inline;
   float: left;
   padding: 1.5rem;
-  margin: .6rem;
   min-height: 300px;
   text-align: center; }
   .events-grid h4,
@@ -576,44 +502,26 @@ hr {
   .events-grid h5 {
     font-weight: initial;
     margin: 10px; }
-  .events-grid a {
-    color: #fff;
-    font-weight: initial; }
   .events-grid p {
+    color: #fff;
     font-size: 1rem;
-    margin-bottom: 20px; }
+    font-weight: initial; }
 
 .event-item_certified {
   background: #5f9fc0;
-  width: 46%; }
-  .event-item_certified .btn-events {
-    color: #000; }
+  width: 33.33%; }
 
 .event-item_workshop {
   background: #21a295;
-  width: 23%; }
+  width: 33.33%; }
   .event-item_workshop ::before {
     background-image: url("../img/icon-workshop.png"); }
-  .event-item_workshop .btn-events {
-    color: #000; }
 
 .event-item_consulting {
   background: #bf639f;
-  width: 23%; }
+  width: 33.33%; }
   .event-item_consulting ::before {
     background-image: url("../img/icon-consulting.png"); }
-  .event-item_consulting .btn-events {
-    color: #000; }
-
-.btn-events {
-  background-color: #fff;
-  border: none;
-  padding: .6rem; }
-
-.btn-events:hover {
-  background-color: transparent;
-  border: .1rem solid #fff;
-  color: #fff; }
 
 .testimonio {
   float: left;
@@ -698,13 +606,133 @@ hr {
   font-weight: bold;
   font-size: 1.5rem; }
 
+.sticky-menu {
+  background-color: transparent; }
+
+.sticky-menu__wrap {
+  background-color: #F3F2F2;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  width: 614px; }
+
+.sticky-menu__item {
+  margin: 0; }
+
+.sticky-menu-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  right: 0; }
+
+.sticky-menu-item {
+  border: none;
+  display: inline-block;
+  padding: 1rem;
+  text-align: center;
+  width: 150px; }
+
+.sticky-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto; }
+
+.icon-workshop-black {
+  background-image: url("../img/icon-workshop-black.png"); }
+
+.icon-consultancies-black {
+  background-image: url("../img/icon-consultancies-black.png"); }
+
+.icon-coaching-black {
+  background-image: url("../img/icon-coaching-black.png"); }
+
+.icon-retreats-black {
+  background-image: url("../img/icon-retreats-black.png"); }
+
+.sticky-menu-item:hover h4 {
+  color: #fff; }
+
+.sticky-menu-workshop:hover {
+  background-color: #21a295; }
+  .sticky-menu-workshop:hover .icon-workshop-black {
+    background-image: url("../img/icon-workshop.png"); }
+
+.sticky-menu-consultancies:hover {
+  background-color: #a4377f; }
+  .sticky-menu-consultancies:hover .icon-consultancies-black {
+    background-image: url("../img/icon-consulting.png"); }
+
+.sticky-menu-coaching:hover {
+  background-color: #f5978d; }
+  .sticky-menu-coaching:hover .icon-coaching-black {
+    background-image: url("../img/icon-coaching.png"); }
+
+.sticky-menu-retreats:hover {
+  background-color: #5f9fc0; }
+  .sticky-menu-retreats:hover .icon-retreats-black {
+    background-image: url("../img/icon-retreats.png"); }
+
+.lastest-post-wrap {
+  width: 90%;
+  margin: 0 auto; }
+  .lastest-post-wrap img {
+    width: 77%;
+    padding: 10px; }
+  .lastest-post-wrap h3,
+  .lastest-post-wrap h4 {
+    margin: 0; }
+  .lastest-post-wrap span {
+    color: #bf639f; }
+
+.lastest-post {
+  width: 48%;
+  float: left;
+  margin: 5px;
+  padding: 15px;
+  background-color: #f3f2f2; }
+  .lastest-post a {
+    border: none; }
+
+.certification__subtitle {
+  font-size: 2.3rem;
+  text-transform: uppercase;
+  padding-bottom: 40px; }
+
 .certification-wrap {
   width: 50%;
   margin: 0 auto;
   text-align: center; }
+  .certification-wrap p:nth-child(1) {
+    margin-bottom: 0; }
+  .certification-wrap a {
+    text-align: center; }
+  .certification-wrap h2 {
+    margin: 0; }
 
-.certification-bg {
-  background-color: #f3f1f2; }
+.certification-descrip {
+  margin: 50px 0; }
+  .certification-descrip p,
+  .certification-descrip li {
+    text-align: left; }
+  .certification-descrip p:nth-child(1) {
+    margin-bottom: 0; }
+
+.certification-details {
+  font-weight: 700;
+  font-size: 1.25rem; }
+
+.certification-info {
+  text-align: center; }
+  .certification-info p {
+    margin: 0;
+    text-align: center;
+    font-weight: 700; }
+
+.certification-required {
+  margin: 20px 0;
+  text-align: left; }
 
 .site-header {
   margin-bottom: 1.5rem;

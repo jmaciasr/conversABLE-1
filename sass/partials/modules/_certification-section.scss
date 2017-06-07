@@ -1,10 +1,56 @@
+.certification__subtitle {
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
 .certification-wrap {
-	width: 50%;
-	margin: 0 auto;
-	text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+
+    p:nth-child(1) {
+        margin-bottom: 0;
+    }
+
+    a {
+        text-align: center;
+    }
+
+    h2 {
+        margin: 0;
+    }
 }
 
-.certification-bg {
-	background-color: #f3f1f2;
+.certification-descrip {
+    margin: 50px 0;
+
+    p,
+    li {
+        text-align: left;
+    }
+
+    p:nth-child(1) {
+        margin-bottom: 0;
+    }
 }
 
+.certification-details {
+    font-weight: $font-family-base-bold-weight;
+    font-size: 1.25rem;
+}
+
+.certification-info {
+    text-align: center;
+
+    p {
+      margin: 0;
+      text-align: center;
+      font-weight: $font-family-base-bold-weight;
+    }
+}
+
+.certification-required {
+    margin: 20px 0;
+    text-align: left;
+}

@@ -1,15 +1,39 @@
-.main-btn {
-    display: block;
-    width: 150px;
-    height: 50px;
-    background-color: #20a296;
+.btn {
+    border: none;
     color: #fff;
-    padding-top: 12px;
-    font-weight: $font-family-base-normal-weight;
-    border-bottom: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 1.5rem 3rem;
 }
 
-.btn-certification {
-	margin: 0 auto;
-	margin-top: 43px;
+.btn--principal {
+    background-color: $turquoise;
+
+    &:hover {
+        background-color: $turquoise-accent;
+    }
+}
+
+.btn--secundary {
+    background-color: #a5a5a5;
+
+    &:hover {
+        background-color: #d0cece;
+    }
+}
+
+.btn--small {
+    padding: .6rem;
+}
+
+.btn--invert {
+    background-color: #fff;
+    color: #a5a5a5;
+
+    &:hover {
+        background-color: rgba(255, 255, 255, .3);
+        border: 2px solid #fff;
+        color: #fff;
+    }
 }
