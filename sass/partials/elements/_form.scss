@@ -1,0 +1,26 @@
+form {
+  width: 384px;
+}
+
+label,
+input,
+textarea,
+select, {
+  display: block;
+  font: 1em/1.5 $font-family-base;
+  margin-bottom: $space-small;
+  border: solid 1px #000;
+}
+
+label {
+  font-weight: bold
+}
+
+[type~=checkbox] {
+  display: inline;
+  margin-bottom: 0.75rem;
+}
+
+textarea {
+  resize: none;
+}
