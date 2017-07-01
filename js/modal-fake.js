@@ -1,14 +1,14 @@
-var btnRequest = $('#btnRequest');
-var modalFake = $('#modalFake');
-var opacity = $('#opacity');
+var btnRequest = document.getElementById('btnRequest');
+var modalFake = document.getElementById('modalFake');
+var opacity = document.getElementById('opacity');
 
-btnRequest.on('click', function () {
-		modalFake.css('display','block');
-		opacity.css('display', 'block');
-})
+btnRequest.addEventListener("click", function(){
+	
+	modalFake.style.display = "block"
+ 	opacity.style.display = "block"
+});
 
-opacity.on('click', function () {
-		modalFake.css('display','none');
-		opacity.css('display', 'none');
-})
-
+opacity.addEventListener("click", function(){
+	modalFake.style.display = "none"
+ 	opacity.style.display = "none"
+});
