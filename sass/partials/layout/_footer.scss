@@ -1,8 +1,11 @@
 .site-footer {
     @include micro-clearfix;
-    background-color: #000;
-}
+    background: url(../img/bg-footer.jpg) repeat-x;
+ }
 
 .contact-footer {
+	@include micro-clearfix;
+    background-color: #000;
+    margin-top: 130px;
     padding: $space-base;
 }

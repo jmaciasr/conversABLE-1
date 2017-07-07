@@ -1,11 +1,11 @@
-.hello-friend {
-    background: url(../img/bg-footer.jpg) repeat-x;
-    padding: $space-medium 0;
-}
-
-.hello-friend__wrap {
-    max-width: 1200px;
-    margin: 0 auto;
+.hello-friend {    
+    float: left;
+    padding: $space-small 0;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, 0);
 }
 
 .hello-friend__img {
@@ -20,9 +20,21 @@
 .hello-friend_desc {
     color: #fff;
     float: right;
+    padding: $space-small;
 }
 
 .hello-friend__title {
     color: #fff;
     margin-bottom: 0;
+}
+
+.contact-media, .mailchimp-form {
+    float: left;
+}
+
+.contact-media {
+    img {
+        width: 70px;
+        padding: 0 5px;
+    }
 }
