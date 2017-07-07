@@ -1,11 +1,10 @@
 .hello-friend {
-    background: url(../img/bg-footer.jpg) repeat-x;
     padding: $space-medium 0;
-}
-
-.hello-friend__wrap {
-    max-width: 1200px;
-    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
 }
 
 .hello-friend__img {
@@ -25,4 +24,17 @@
 .hello-friend__title {
     color: #fff;
     margin-bottom: 0;
+}
+
+.mailchimp-form {
+    float: left;
+}
+
+.contact-media {
+    float: left;
+
+    img {
+        width: 75px;
+        padding: 5px;
+    }
 }
