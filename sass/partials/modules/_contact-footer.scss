@@ -1,7 +1,7 @@
 .hello-friend {
-    padding: $space-medium 0;
-    position: absolute;
     left: 50%;
+    padding: $space-small 0;
+    position: relative;
     -webkit-transform: translate(-50%, 0);
     -ms-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
@@ -18,7 +18,8 @@
 
 .hello-friend_desc {
     color: #fff;
-    float: right;
+    float: left;
+    padding: 0 $space-small;
 }
 
 .hello-friend__title {
