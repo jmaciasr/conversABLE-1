@@ -21,7 +21,7 @@
 .team-grid__photo-wrap {
   width: 200px;
   float: left;
-  margin-right: 3rem;
+  margin-right: $space-out-small;
 }
 
 .team-grid__photo {
@@ -51,6 +51,7 @@
 .team-grid__desc {
   float: right;
   width: 54%;
+  margin-right: $space-out-small;
   p {
     font-size: 1rem;
   }

@@ -1,17 +1,18 @@
 .certification__subtitle {
-    font-size: 2.3rem;
-    text-transform: uppercase;
-    padding-bottom: 2.5rem;
-}
-
-.certification-v2__subtitle {
     font-size: 2rem;
     text-transform: uppercase;
     padding-bottom: 2.5rem;
 }
 
+.certification-v2__subtitle {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding-bottom: $space-medium;
+}
+
 .certification-v2__subtitle--space-out {
-  margin: $space-out-large 0 $space-xx-out-large 0;
+  margin: $space-x-out-large 0 $space-xx-out-large 0;
+  padding-bottom: $space-medium;
 }
 
 .certification-wrap {
