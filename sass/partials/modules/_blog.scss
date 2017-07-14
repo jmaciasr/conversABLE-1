@@ -1,19 +1,17 @@
 .blog-tag {
     background-color: #474747;
     color: #fff;
-    font-size: 1.25rem;
     width: 20%;
     padding: $space-base/3 $space-large $space-base/3 $space-base/2;
 }
 
 .blog-subtitle {
     color: $turquoise;
-    font-size: 1.5rem;
     margin: 0;
 }
 
 .blog-title {
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 0;
 }
 
@@ -24,7 +22,7 @@
 
 .blog-img {
     float: left;
-    margin-right: 3rem;
+    margin-right: $space-out-medium;
     width: 20%;
 }
 
@@ -41,7 +39,7 @@
 }
 
 .blog-links {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .blog-services-grid {
