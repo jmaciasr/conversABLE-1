@@ -1,5 +1,5 @@
 .event-info {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     margin-bottom: 6rem;
     overflow: hidden;
 }
@@ -13,7 +13,7 @@
     width: 48%;
 
     h3 {
-        margin-bottom: 6rem;
+        margin-bottom: $space-medium;
     }
 }
 
@@ -21,6 +21,10 @@
     float: right;
     text-align: center;
     width: 35%;
+
+    p {
+        font-size: 1rem;
+    }
 }
 
 .img--workshops {
@@ -34,11 +38,11 @@
 }
 
 .img-paypal--width {
-    width: 28%;
+    width: 40%;
 }
 
 .accounts {
-    margin: 6rem 0;
+    margin: $space-x-out-large 0;
     text-align: initial;
 
     img {
