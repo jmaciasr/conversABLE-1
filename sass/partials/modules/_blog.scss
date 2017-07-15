@@ -6,8 +6,9 @@
 }
 
 .blog-subtitle {
-    color: $turquoise;
-    margin: 0;
+  color: $turquoise;
+  font-size: 1rem;
+  margin: 0;
 }
 
 .blog-title {
@@ -27,8 +28,9 @@
 }
 
 .blog-articles {
-    margin-bottom: 9rem;
+    margin-bottom: $space-xxx-out-large;
     overflow: hidden;
+
     a {
       font-weight: $font-family-base-normal-weight;
     }
