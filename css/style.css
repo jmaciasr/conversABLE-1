@@ -177,7 +177,10 @@ sup {
 q {
   font-style: italic; }
 
-p {
+p,
+li,
+dd,
+dt {
   font-size: 1.125rem; }
 
 a {
@@ -657,7 +660,6 @@ hr {
     background-image: url("../img/icon-consulting.png"); }
 
 .event-info {
-  font-size: 1.25rem;
   margin-bottom: 6rem;
   overflow: hidden; }
 
@@ -668,12 +670,14 @@ hr {
   float: left;
   width: 48%; }
   .event-content h3 {
-    margin-bottom: 6rem; }
+    margin-bottom: 2.25rem; }
 
 .event-sidebar {
   float: right;
   text-align: center;
   width: 35%; }
+  .event-sidebar p {
+    font-size: 1rem; }
 
 .img--workshops {
   border-left: 8px solid #21a295;
@@ -684,10 +688,10 @@ hr {
   width: 85%; }
 
 .img-paypal--width {
-  width: 28%; }
+  width: 40%; }
 
 .accounts {
-  margin: 6rem 0;
+  margin: 4.5rem 0;
   text-align: initial; }
   .accounts img {
     width: 70%; }
