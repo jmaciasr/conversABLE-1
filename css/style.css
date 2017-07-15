@@ -864,24 +864,20 @@ hr {
   .sticky-menu-retreats:hover .icon-retreats-black {
     background-image: url("../img/icon-retreats.png"); }
 
-.lastest-post-wrap {
-  width: 90%;
-  margin: 0 auto; }
-  .lastest-post-wrap img {
-    width: 77%;
-    padding: 10px; }
-  .lastest-post-wrap h3,
-  .lastest-post-wrap h4 {
-    margin: 0; }
-  .lastest-post-wrap span {
-    color: #bf639f; }
+.lastest-post-wrap img {
+  width: 77%;
+  padding: 10px; }
+.lastest-post-wrap p {
+  font-weight: initial;
+  margin: 0; }
 
 .lastest-post {
-  width: 48%;
+  background-color: #f3f2f2;
   float: left;
   margin: 5px;
+  min-height: 825px;
   padding: 15px;
-  background-color: #f3f2f2; }
+  width: 48%; }
   .lastest-post a {
     border: none; }
 
