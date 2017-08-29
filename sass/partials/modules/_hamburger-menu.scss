@@ -3,13 +3,38 @@
 }
 
 @media only screen and (max-width: 992px) {
-    .main-menu__items,
+   /* .main-menu__items,
     .bg-video {
         display: none; 
     }
 
     .icon-hamburger-menu {
     display: initial;
+    }
+    */
+    nav {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    header {
+        background-color: #21a295;
+        height: 100%;
+        z-index: 9;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .main-menu, 
+    .main-menu__item {
+        float: none;
+    }  
+
+    .site-header {        
+        position: fixed;
+        width: 100%;
     }
 }
 
