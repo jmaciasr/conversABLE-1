@@ -1,7 +1,9 @@
 var screenWidth = window.innerWidth;
-var mainMenu = document.getElementById('mainMenu')
-var bgHeader = document.getElementById('bgHeader')
-var menuItems = document.getElementById('menuItems')
+var mainMenu = document.getElementById('mainMenu');
+var bgHeader = document.getElementById('bgHeader');
+var menuItems = document.getElementById('menuItems');
+var hamburgerOpen = document.getElementById('hamburgerOpen');
+var toggleMenu = 1;
 
 
 if (screenWidth <= 992) {
@@ -16,4 +18,17 @@ if (screenWidth <= 992) {
 	homeLink.textContent = 'home';
 	home.appendChild(homeLink);
 };
+/*
+function () {
+	hamburgerOpen.addEventListener('click', function () {
+	if (toggleMenu ==1) {
+		menuItems.style.top="initial";
+		toggleMenu = 0;
+	} else {
+		menuItems.style.top="-40%";
+		toggleMenu = 1;
+	}
 
+	})
+};
+*/
